@@ -16,6 +16,7 @@ Demonstrates the reasoning preventing women from going into high paying jobs
 # This program 
    We presents two humans with a set of job options, and asks them to pick one according to their personal validation rules. 
 
+
    The `Human` instance will run the validation rules in a sequence and select the first job which satisfies all the rules. 
 
    There is a single difference between the set of rules applied by a `Man` and a `Woman` instance, which will temper the outruling of a challenging job (`R003IsNotExcessivelyHard`), if there is a high financial reward to it (`R004WillMakeYouAShitTonOfMoney`). 
